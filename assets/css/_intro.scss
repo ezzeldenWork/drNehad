@@ -1,0 +1,45 @@
+.intro_section{
+  padding: 60px 0;
+  .intro_box{
+    h1{
+      font-size: 69px;
+      font-weight: bold;
+      color: rgba($gray_color,  1.0);
+      font-family: $minFont;
+    }
+    .prag{
+      font-family: $subFont;
+      font-size: 18px;
+      font-weight: 500;
+      color: rgba($gray_color,  1.0);
+      padding: 20px ;
+    }
+    .intro_button{
+      border: 0;
+      cursor: pointer;
+      border-radius: 50px;
+      padding: 14px 60px;
+      color: rgba($white_color,  1.0);
+      font-family: $subFont;
+      font-weight: 500;
+      position: relative;
+      background-color: rgba($min_color,  1.0);
+      img{
+        height: 23px;
+        padding: 0 3px;
+        @extend%trans4;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        left: 40px;
+      }
+      &:hover{
+        img{
+          opacity: 1;
+          left: 31px;
+        }
+      }
+    }
+  }
+}

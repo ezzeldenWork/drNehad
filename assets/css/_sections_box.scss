@@ -1,0 +1,115 @@
+.service_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  height: calc(100% - 30px);
+  text-align: center;
+  padding: 40px;
+  margin: 20px 0;
+  z-index: 1;
+  position: relative;
+  @extend%trans4;
+  &.orang_box {
+    background: linear-gradient(180deg, #fbba77 0%, #dfa871 100%);
+  }
+  &.sky_box {
+    background: linear-gradient(180deg, #41eae3 0%, #2293b7 100%);
+  }
+  &.page_box {
+    background: linear-gradient(180deg, #69529f 0%, #463864 100%);
+  }
+  &.blue_box {
+    background: linear-gradient(180deg, #4386d2 0%, #0962c5 100%);
+  }
+  &.pageLight_box {
+    background: linear-gradient(180deg, #a5a2f6 0%, #564fd6 100%);
+  }
+  &.red_box {
+    background: linear-gradient(180deg, #ff8088 0%, #984141 100%);
+  }
+  img {
+    height: 50px;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: $minFont;
+    color: rgba($white_color, 1);
+  }
+  .prag {
+    font-size: 14px;
+    font-family: $subFont;
+    color: rgba($white_color, 1);
+    padding: 10px 0;
+  }
+  a {
+    padding: 12px 30px;
+    border: 1px solid rgba($white_color, 1);
+    border-radius: 50px;
+    font-size: 16px;
+    color: rgba($white_color, 1);
+    display: inline-block;
+    @extend%trans4;
+  }
+  &:hover {
+    transform: translateY(-10px) scale(1.01);
+    box-shadow: 0 6px 8px rgba($black_color, 0.3);
+    a {
+      background-color: rgba($white_color, 1);
+      color: rgba($black_color, 1);
+    }
+  }
+}
+
+.about_title_box {
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: $minFont;
+    color: rgba($gray_color, 1);
+  }
+  .prag {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 20px;
+    font-family: $subFont;
+    color: rgba($gray_color, 1);
+    width: 70%;
+  }
+  .popup_box {
+    a {
+      display: flex;
+      align-items: center;
+
+      i {
+        width: 55px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        color: rgba($white_color, 1);
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        justify-content: center;
+        background-color: rgba($min_color, 1);
+      }
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $subFont;
+        padding: 0 60px;
+        display: inline-block;
+        color: rgba($gray_color, 1);
+        position: relative;
+        &:after {
+          position: absolute;
+          content: "";
+          bottom: 10px;
+          background-color: rgba($gray_color, 1);
+          width: 30px;
+          height: 2px;
+          left: 16px;
+        }
+      }
+    }
+  }
+}

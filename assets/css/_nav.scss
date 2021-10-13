@@ -1,6 +1,6 @@
 .header-section {
   position: relative;
-  padding: 70px 0;
+  padding: 70px 0 173px;
   z-index: 1;
   &::after {
     z-index: -1;
@@ -11,7 +11,7 @@
     background-size: contain;
     right: 0;
     background-image: url("../img/introBack.png");
-    width: 1242.04px;
+    width: 1005px;
     height: 377px;
   }
   .logoBox {

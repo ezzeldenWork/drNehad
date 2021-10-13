@@ -21,3 +21,32 @@ a {
     text-decoration: none;
   }
 }
+
+.section_space {
+  padding: 60px 0;
+}
+.section_title_box {
+  margin: 0 0 40px;
+  text-align: center;
+  h6 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: $minFont;
+    color: rgba($min_color, 1);
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: $minFont;
+    color: rgba($gray_color, 1);
+    padding: 14px 0;
+  }
+  .prag {
+    width: 55%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: $subFont;
+    color: rgba($gray_color, 1);
+  }
+}
