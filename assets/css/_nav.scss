@@ -1,0 +1,54 @@
+.header-section {
+  position: relative;
+  padding: 70px 0;
+  z-index: 1;
+  &::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    background-image: url("../img/introBack.png");
+    width: 1242.04px;
+    height: 377px;
+  }
+  .logoBox {
+    a {
+      display: inline-block;
+      span {
+        font-size: 30px;
+        &:first-of-type {
+          font-size: 24px;
+          font-family: $minFont;
+          font-weight: 500;
+          color: rgba($gray_color, 1);
+        }
+        &:last-of-type {
+          font-weight: 700;
+          color: rgba($min_color, 1);
+        }
+      }
+    }
+  }
+  .navBox {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      li {
+        padding: 0 20px;
+        a {
+          font-size: 20px;
+          font-weight: bold;
+          color: rgba($white_color, 1);
+          @extend%trans4;
+          &:hover {
+            color: rgba($orang_color, 1);
+          }
+        }
+      }
+    }
+  }
+}

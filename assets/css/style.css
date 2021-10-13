@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: unset;
+}
+
+a {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-section {
+  position: relative;
+  padding: 70px 0;
+  z-index: 1;
+}
+
+.header-section::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  background-image: url("../img/introBack.png");
+  width: 1242.04px;
+  height: 377px;
+}
+
+.header-section .logoBox a {
+  display: inline-block;
+}
+
+.header-section .logoBox a span {
+  font-size: 30px;
+}
+
+.header-section .logoBox a span:first-of-type {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: #534d4d;
+}
+
+.header-section .logoBox a span:last-of-type {
+  font-weight: 700;
+  color: #3d37f1;
+}
+
+.header-section .navBox ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-section .navBox ul li {
+  padding: 0 20px;
+}
+
+.header-section .navBox ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-section .navBox ul li a:hover {
+  color: #f36f21;
+}
+
+.header-section .navBox ul li a {
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+}
