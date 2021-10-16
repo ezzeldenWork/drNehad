@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>My Blog</title>
 </head>
@@ -60,7 +65,7 @@
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-md-6">
-                                <div class="intro_box">
+                                <div class="intro_box" data-aos="fade-up">
                                     <h1>
                                         Dr : Nehad Elgamel
                                     </h1>
@@ -88,20 +93,23 @@
                 <section class="service_section section_space">
                     <div class="container">
                         <div class="row">
-                            <div class="section_title_box">
-                                <h6>OUR SERVICES</h6>
-                                <h2>We Provide Best Quality Service </h2>
-                                <p class="prag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nam
-                                    reiciendis id autem asperiores ipsum exercitationem commodi hic quisquam facilis
-                                    quaerat iure recusandae perferendis consequatur. Eligendi architecto error in quas.
-                                </p>
+                            <div class="col-md-12">
+                                <div data-aos="zoom-in" class="section_title_box">
+                                    <h6>OUR SERVICES</h6>
+                                    <h2>We Provide Best Quality Service </h2>
+                                    <p class="prag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nam
+                                        reiciendis id autem asperiores ipsum exercitationem commodi hic quisquam facilis
+                                        quaerat iure recusandae perferendis consequatur. Eligendi architecto error in
+                                        quas.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-lg-8 col-md-12">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="service_box orang_box">
+                                        <div data-aos="fade-up" class="service_box orang_box">
                                             <img src="assets/img/001-data.svg" alt="img" loading="lazy"
                                                 class="img_fluid">
                                             <h3 class="service_title">
@@ -116,7 +124,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="service_box sky_box">
+                                        <div data-aos="fade-up" class="service_box sky_box">
                                             <img src="assets/img/003-paint.svg" alt="img" loading="lazy"
                                                 class="img_fluid">
                                             <h3 class="service_title">
@@ -132,7 +140,7 @@
                                     </div>
 
                                     <div class="col-md-4">
-                                        <div class="service_box page_box">
+                                        <div data-aos="fade-up" class="service_box page_box">
                                             <img src="assets/img/002-phone.svg" alt="img" loading="lazy"
                                                 class="img_fluid">
                                             <h3 class="service_title">
@@ -147,7 +155,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="service_box blue_box">
+                                        <div data-aos="fade-up" class="service_box blue_box">
                                             <img src="assets/img/004-app.svg" alt="img" loading="lazy"
                                                 class="img_fluid">
                                             <h3 class="service_title">
@@ -162,7 +170,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="service_box pageLight_box">
+                                        <div data-aos="fade-up" class="service_box pageLight_box">
                                             <img src="assets/img/006-domain-registration.svg" alt="img" loading="lazy"
                                                 class="img_fluid">
                                             <h3 class="service_title">
@@ -177,7 +185,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="service_box red_box">
+                                        <div data-aos="fade-up" class="service_box red_box">
                                             <img src="assets/img/005-repair.svg" alt="img" loading="lazy"
                                                 class="img_fluid">
                                             <h3 class="service_title">
@@ -203,11 +211,11 @@
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-md-6">
-                                <img src="assets/img/undraw_about_me_wa29.svg" alt="img" loading="lazy"
-                                    class="img-fluid">
+                                <img src="assets/img/undraw_about_me_wa29.svg" data-aos="zoom-in" alt="img"
+                                    loading="lazy" class="img-fluid">
                             </div>
                             <div class="col-md-5">
-                                <div class="about_title_box">
+                                <div class="about_title_box" data-aos="zoom-out">
                                     <h3>Know About Me</h3>
                                     <p class="prag">
                                         I always follow professional Workflow and provide you best service with
@@ -216,7 +224,7 @@
                                     <div class="popup_box">
                                         <a data-fancybox="gallery" href="./assets/img/006-domain-registration.svg">
                                             <i class="fas fa-play"></i>
-                                        <span>  See My video</span>
+                                            <span> See My video</span>
                                         </a>
                                     </div>
                                 </div>
@@ -226,6 +234,387 @@
                 </section>
                 <!-- aboutSection -->
 
+
+                <!-- success_section -->
+                <div class="success_section section_space">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div data-aos="zoom-in" class="section_title_box">
+                                    <h2>Our Success </h2>
+                                    <p class="prag">
+                                        View our portfolio in catagoris
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="success_box min_color">
+                                            <p data-aos="fade-up" class="success_number">
+                                                137
+                                            </p>
+                                            <h4 data-aos="fade-down" class="success_title">
+                                                PROJECT DONE
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="success_box pink_color">
+                                            <p data-aos="fade-up" class="success_number">
+                                                47
+                                            </p>
+                                            <h4 data-aos="fade-down" class="success_title">
+                                                HAPPY CLIENT
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="success_box orang_color">
+                                            <p data-aos="fade-up" class="success_number">
+                                                34
+                                            </p>
+                                            <h4 data-aos="fade-down" class="success_title">
+                                                RETURN CLIENT
+                                            </h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- success_section -->
+
+
+                <!-- comment_section -->
+                <div class="comment_section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div data-aos="zoom-in" class="section_title_box white_box">
+                                    <h2>What they say about us! </h2>
+                                    <p class="prag">
+                                        Customer Review Sites for Collecting Business & Product Reviews
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <div class="col-md-8">
+                                <div class="comment_slider">
+                                    <div class="comment_slider_item">
+                                        <div class="comment_img">
+                                            <img src="assets/img/avater.png" alt="avater" class="img-fluid">
+                                        </div>
+                                        <p class="prag">
+                                            Loved the design specially the color combination. Look forward to work more
+                                            in future.
+                                        </p>
+                                        <div class="person_title">
+                                            <h3 class="person_name">
+                                                Cris Angela
+                                            </h3>
+                                            <h4 class="person_jop">
+                                                Head Of CsWeb
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="comment_slider_item">
+                                        <div class="comment_img">
+                                            <img src="assets/img/avater.png" alt="avater" class="img-fluid">
+                                        </div>
+                                        <p class="prag">
+                                            Loved the design specially the color combination. Look forward to work more
+                                            in future.
+                                        </p>
+                                        <div class="person_title">
+                                            <h3 class="person_name">
+                                                Cris Angela
+                                            </h3>
+                                            <h4 class="person_jop">
+                                                Head Of CsWeb
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="comment_slider_item">
+                                        <div class="comment_img">
+                                            <img src="assets/img/avater.png" alt="avater" class="img-fluid">
+                                        </div>
+                                        <p class="prag">
+                                            Loved the design specially the color combination. Look forward to work more
+                                            in future.
+                                        </p>
+                                        <div class="person_title">
+                                            <h3 class="person_name">
+                                                Cris Angela
+                                            </h3>
+                                            <h4 class="person_jop">
+                                                Head Of CsWeb
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="addComment">
+                                    <div class="row  align-items-center">
+                                        <div class="col-md-8">
+                                            <div data-aos="zoom-in" class="section_title_box white_box start-text">
+                                                <p class="prag">
+                                                    Learn About My Workflow: </p>
+                                                <h2>I'm always hungry for creativity. Available for hire! </h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button class="intro_button">
+                                                <img src="./assets/img/waving-hand.svg" alt="img" loading="lazy"
+                                                    class="img-fluid">
+                                                Wave Me</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- comment_section -->
+
+
+                <!-- box_section -->
+                <div class="box_section section_space">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div data-aos="zoom-out-right" data-aos-duration="2900" class="box_content min_color"
+                                            style="background-image: url('./assets/img/5befebc8b10de53216678bc8_RAW.jpg');">
+                                            <img src="assets/img/001-design.svg" alt="" class="img-fluid">
+                                            <h4 class="box_title">Design</h4>
+                                            <p class="prag">
+                                                Lorm Spam Door Somith Door
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div data-aos="zoom-out" data-aos-duration="2900" class="box_content orang_color"
+                                            style="background-image: url('./assets/img/5c3c53bdd0984a521d2f7e3a_RAW.jpg');">
+                                            <img src="assets/img/002-sketchbook.svg" alt="" class="img-fluid">
+                                            <h4 class="box_title">Design</h4>
+                                            <p class="prag">
+                                                Lorm Spam Door Somith Door
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div data-aos="zoom-out-left" data-aos-duration="2900" class="box_content move_color"
+                                            style="background-image: url('./assets/img/5c4d9255d0984a1de323b3fe_RAW.jpg');">
+                                            <img src="assets/img/003-test.svg" alt="" class="img-fluid">
+                                            <h4 class="box_title">Design</h4>
+                                            <p class="prag">
+                                                Lorm Spam Door Somith Door
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box_section -->
+
+
+
+
+                <!-- workflow_section  -->
+
+                <div class="workflow_section section_space">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="assets/img/undraw_social_networking_nqk4.svg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <div data-aos="zoom-in" class="section_title_box start-text small_title">
+                                    <h2>Our Workflow :</h2>
+                                    <p class="prag">
+                                        I always follow professional Workflow and provide you best service with
+                                        resealable costs.
+                                    </p>
+                                </div>
+                                <div class="workflow_list">
+                                    <ul class="list-unstyled">
+                                        <li data-aos="fade-up" data-aos-duration="2500">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2600">
+                                            <h2 class="title">
+                                                Research
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2700">
+                                            <h2 class="title">
+                                                Concept Design
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2800">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2900">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="3000">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2900">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2900">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                        <li data-aos="fade-up" data-aos-duration="2900">
+                                            <h2 class="title">
+                                                Your brief
+                                            </h2>
+                                            <p class="prag">
+                                                I always professional Workflow and provide
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- workflow_section  -->
+
+                <!-- Our Blog -->
+
+                <div class="blog_section section_space">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div data-aos="zoom-in" class="section_title_box">
+                                    <h2>OUR Blog </h2>
+                                    <p class="prag">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus
+                                        vehicula elit vel egestas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="blog_box">
+                                            <div class="blog_img_box">
+                                                <img src="./assets/img/imgThup.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="blog_title">
+                                                <h2 class="title_text">
+                                                    Cutting-edge products launched through Logitech-Excel
+                                                </h2>
+                                                <p class="prag">
+                                                    The Managing Director & Cluster Head India & South-West Asia at
+                                                    Logitech Sumanta Datta.
+                                                </p>
+                                                <a href="#" class="blog_link">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="blog_box">
+                                            <div class="blog_img_box">
+                                                <img src="./assets/img/imgThup.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="blog_title">
+                                                <h2 class="title_text">
+                                                    Cutting-edge products launched through Logitech-Excel
+                                                </h2>
+                                                <p class="prag">
+                                                    The Managing Director & Cluster Head India & South-West Asia at
+                                                    Logitech Sumanta Datta.
+                                                </p>
+                                                <a href="#" class="blog_link">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="blog_box">
+                                            <div class="blog_img_box">
+                                                <img src="./assets/img/imgThup.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="blog_title">
+                                                <h2 class="title_text">
+                                                    Cutting-edge products launched through Logitech-Excel
+                                                </h2>
+                                                <p class="prag">
+                                                    The Managing Director & Cluster Head India & South-West Asia at
+                                                    Logitech Sumanta Datta.
+                                                </p>
+                                                <a href="#" class="blog_link">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Our Blog -->
+
             </main>
         </div>
         <!--           end content-->
@@ -234,7 +623,42 @@
             <footer class="wrapper">
 
 
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="footer_section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <div class="logoBox">
+                                    <a href="./index.html"> <span>Dr</span> <span>Nehad Elgamel</span></a>
+                                </div>
+                            </div>
+                            <div class="col-4 text-center">
+                                <a href="#" class="copyRight">powrd by Ezz Elden &copy;</a>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
             </footer>
         </div>
@@ -250,14 +674,16 @@
                     <div class="box"></div>
                     <div class="box"></div>
                     <div class="wrap-text">
-                        <div class="text"><span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span><span>...</span></div>
+                        <div class="text">
+                            <span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span><span>...</span>
+                        </div>
                     </div>
                 </div>
                 <div class="loader-text">wait please</div>
             </div>
         </div>
-        
-        
+
+
         <!-- Loder  -->
 
     </div>
@@ -265,7 +691,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>

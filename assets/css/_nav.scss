@@ -14,24 +14,6 @@
     width: 1005px;
     height: 377px;
   }
-  .logoBox {
-    a {
-      display: inline-block;
-      span {
-        font-size: 30px;
-        &:first-of-type {
-          font-size: 24px;
-          font-family: $minFont;
-          font-weight: 500;
-          color: rgba($gray_color, 1);
-        }
-        &:last-of-type {
-          font-weight: 700;
-          color: rgba($min_color, 1);
-        }
-      }
-    }
-  }
   .navBox {
     ul {
       display: flex;
@@ -48,6 +30,25 @@
             color: rgba($orang_color, 1);
           }
         }
+      }
+    }
+  }
+}
+
+.logoBox {
+  a {
+    display: inline-block;
+    span {
+      font-size: 30px;
+      &:first-of-type {
+        font-size: 24px;
+        font-family: $minFont;
+        font-weight: 500;
+        color: rgba($gray_color, 1);
+      }
+      &:last-of-type {
+        font-weight: 700;
+        color: rgba($min_color, 1);
       }
     }
   }
