@@ -1,3 +1,8 @@
+
+$(window).on('load', function() {
+  $(".loder_page").fadeOut()
+})
+
 $(document).ready(function () {
   $(".comment_slider").slick({
     infinite: true,
