@@ -1492,6 +1492,9 @@ body {
   .workflow_section .workflow_list ul li .prag {
     font-size: 12px;
   }
+  .about_title_box .prag {
+    font-size: 12px;
+  }
 }
 
 @-webkit-keyframes li-up {
