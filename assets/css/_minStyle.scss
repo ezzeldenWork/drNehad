@@ -24,11 +24,15 @@ a {
 body{
   counter-reset: workflow_list;
   background-color: #F8F8F8;
+  overflow-x: hidden;
 }
 
 
 .section_space {
   padding: 60px 0;
+  &.dual{
+    padding: 257px 0 60px;
+  }
 }
 .section_title_box {
   margin: 0 0 40px;
@@ -106,4 +110,27 @@ body{
       left: 31px;
     }
   }
+}
+
+
+
+.close-icon {
+  left: 38px !important;
+}
+.overlay{
+  display: none;
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(41, 146, 200, 0.2);
+    z-index: 66;
+}
+.up-a {
+  animation: li-up 0.5s linear forwards;
+}
+
+.opne_menuBox {
+  right: 0 !important;
 }
