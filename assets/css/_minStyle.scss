@@ -59,14 +59,14 @@ body{
     }
   }
   h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     font-family: $minFont;
     color: rgba($min_color, 1);
     text-transform: uppercase;
   }
   h2 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     font-family: $minFont;
     color: rgba($gray_color, 1);
@@ -75,8 +75,8 @@ body{
   .prag {
     width: 55%;
     margin: 0 auto;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 400;
     font-family: $subFont;
     color: rgba($gray_color, 1);
   }
@@ -86,7 +86,8 @@ body{
   border: 0;
   cursor: pointer;
   border-radius: 50px;
-  padding: 14px 60px;
+  padding: 10px 40px;
+  font-size:20px ;
   color: rgba($white_color, 1);
   font-family: $subFont;
   font-weight: 500;
@@ -105,7 +106,7 @@ body{
   &:hover {
     img {
       opacity: 1;
-      left: 31px;
+      left: 9px;
     }
   }
 }

@@ -61,7 +61,7 @@ body {
 }
 
 .section_title_box h6 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   font-family: "Lato", sans-serif;
   color: #3d37f1;
@@ -69,7 +69,7 @@ body {
 }
 
 .section_title_box h2 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   font-family: "Lato", sans-serif;
   color: #534d4d;
@@ -79,8 +79,8 @@ body {
 .section_title_box .prag {
   width: 55%;
   margin: 0 auto;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #534d4d;
 }
@@ -89,7 +89,8 @@ body {
   border: 0;
   cursor: pointer;
   border-radius: 50px;
-  padding: 14px 60px;
+  padding: 10px 40px;
+  font-size: 20px;
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -110,7 +111,7 @@ body {
 
 .intro_button:hover img {
   opacity: 1;
-  left: 31px;
+  left: 9px;
 }
 
 .close-icon {
@@ -202,7 +203,7 @@ body {
 }
 
 .intro_section .intro_box h1 {
-  font-size: 69px;
+  font-size: 50px;
   font-weight: bold;
   color: #534d4d;
   font-family: "Lato", sans-serif;
@@ -231,9 +232,6 @@ body {
 }
 
 .tab_section .nav-tabs li .nav-link {
-  display: block;
-  text-align: start;
-  width: 70%;
   max-width: 100%;
   padding: 0 0 10px;
   position: relative;
@@ -275,7 +273,7 @@ body {
   width: 300px;
   height: 270px;
   max-width: 100%;
-  border: 3px solid white;
+  border: 7px solid white;
   overflow: hidden;
   -webkit-box-shadow: 0 40px 40px rgba(83, 77, 77, 0.2);
           box-shadow: 0 40px 40px rgba(83, 77, 77, 0.2);
@@ -1468,6 +1466,18 @@ body {
     margin: 0 auto;
     text-align: center;
   }
+  .success_section .success_box .success_number {
+    margin: 0 auto 10px;
+  }
+  .success_section .success_box .success_title {
+    padding: 0 0 20px;
+  }
+  .comment_section {
+    padding: 40px 0;
+  }
+  .comment_section .comment_slider .comment_slider_item .prag {
+    width: 100%;
+  }
   .blog_section .blog_box .blog_img_box::after {
     height: 172px;
   }
@@ -1493,6 +1503,20 @@ body {
   }
   .about_title_box .prag {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .workflow_section .workflow_list ul {
+    display: block;
+  }
+  .workflow_section .workflow_list ul li {
+    padding: 25px 0 7px 65px;
+  }
+  .workflow_section .workflow_list ul li::after {
+    top: 100%;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
 }
 

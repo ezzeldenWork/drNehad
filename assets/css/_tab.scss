@@ -14,9 +14,6 @@
     li {
       padding: 0 0 20px;
       .nav-link {
-        display: block;
-        text-align: start;
-        width: 70%;
         max-width: 100%;
         padding: 0 0 10px;
         position: relative;
@@ -57,7 +54,7 @@
           width: 300px;
           height: 270px;
           max-width: 100%;
-          border: 3px solid rgba($white_color, 1);
+          border: 7px solid rgba($white_color, 1);
           overflow: hidden;
           box-shadow: 0 40px 40px rgba($gray_color, 0.2);
           position: relative;
