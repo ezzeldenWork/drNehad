@@ -3,20 +3,7 @@
   background-color: rgba($gray_color, .1);
   position: relative;
   z-index: 1;
-  &::after {
-    content: "";
-    background-image: url(../img/waves2.svg);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
-    width: 100%;
-    bottom: -499px;
-    height: 186%;
-    transform: rotate(180deg);
-    position: absolute;
-    left: 0;
-    z-index: -1;
-  }
+
   .intro_box{
     h1{
       font-size: 69px;

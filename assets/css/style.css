@@ -30,10 +30,6 @@ body {
   padding: 60px 0;
 }
 
-.section_space.dual {
-  padding: 257px 0 60px;
-}
-
 .section_title_box {
   margin: 0 0 40px;
   text-align: center;
@@ -203,22 +199,6 @@ body {
   background-color: rgba(83, 77, 77, 0.1);
   position: relative;
   z-index: 1;
-}
-
-.intro_section::after {
-  content: "";
-  background-image: url(../img/waves2.svg);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  width: 100%;
-  bottom: -499px;
-  height: 186%;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  position: absolute;
-  left: 0;
-  z-index: -1;
 }
 
 .intro_section .intro_box h1 {
@@ -1306,9 +1286,6 @@ body {
   }
   .about_title_box .prag {
     width: 100%;
-  }
-  .section_space.dual {
-    padding: 173px 0 60px;
   }
   .section_title_box .prag {
     width: 100%;
