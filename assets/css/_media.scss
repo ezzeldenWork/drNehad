@@ -85,7 +85,7 @@
       top: 0;
       right: -300%;
       background-color: rgba($min_color, 1);
-      z-index: 99;
+      z-index: 999999;
       bottom: 0;
       width: 280px;
       box-shadow: -6px 0 8px rgba($black-color, 0.3);
@@ -99,7 +99,9 @@
         text-align: center;
         li {
           padding: 10px 0;
-
+          a {
+            color: rgba($white_color, 1);
+          }
           &:nth-child(1) {
             animation-delay: 0.2s;
           }
@@ -157,31 +159,107 @@
   }
 }
 @media (max-width: 772px) {
-  .order{
+  .order {
     order: -1;
   }
-  .header-section{
+  .header-section {
     padding: 30px 0;
   }
-  .intro_section{
+  .intro_section {
     padding: 30px 0;
     text-align: center;
-    .intro_img{
-      img{
+    .intro_img {
+      img {
         height: 350px;
       }
     }
   }
-  .section_title_box {.prag{
-    font-size: 12px;
-    width: 100%;
-  }}
+  .section_title_box {
+    .prag {
+      font-size: 12px;
+      width: 100%;
+    }
+  }
+  .tab_section {
+    .tab-content {
+      .tab-pane {
+        .box_tab {
+          grid-gap: 20px;
+          grid-template-columns: auto auto;
+          .tab_item {
+            width: 200px;
+            height: 150px;
+            margin: 0 auto;
+            img {
+              width: inherit;
+              height: inherit;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .about_title_box {
+    padding: 20px 0;
+    text-align: center;
+    .popup_box {
+      width: 100%;
+      a {
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }
+
+  .blog_section {
+    .blog_box {
+      .blog_img_box {
+        &::after {
+          height: 172px;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 500px) {
   .logoBox {
     a {
       span {
         font-size: 21px;
+      }
+    }
+  }
+  .tab_section {
+    .tab-content {
+      .tab-pane {
+        .box_tab {
+          grid-gap: 20px;
+          grid-template-columns: auto;
+        }
+      }
+    }
+    .nav-tabs {
+      li {
+        .nav-link {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .workflow_section {
+    .workflow_list {
+      ul {
+        li {
+          .title {
+            font-size: 16px;
+          }
+          .prag {
+            font-size: 12px;
+          }
+        }
       }
     }
   }

@@ -1,0 +1,97 @@
+.tab_section {
+  .section_title_box {
+    &.start-text {
+      .prag {
+        width: 100%;
+      }
+    }
+  }
+
+  .nav-tabs {
+    padding: 40px 0 20px;
+    display: block;
+    border: 0;
+    li {
+      padding: 0 0 20px;
+      .nav-link {
+        display: block;
+        text-align: start;
+        width: 70%;
+        max-width: 100%;
+        padding: 0 0 10px;
+        position: relative;
+        border: 0;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: $minFont;
+        @extend%trans4;
+        color: rgba($gray_color, 1);
+        &.active {
+          background-color: transparent;
+          color: rgba($min_color, 1);
+          &:after {
+            width: 100%;
+          }
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          width: 0;
+          height: 3px;
+          background-color: rgba($min_color, 1);
+          @extend%trans4;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    .tab-pane {
+      .box_tab {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto auto;
+        .tab_item {
+          width: 300px;
+          height: 270px;
+          max-width: 100%;
+          border: 3px solid rgba($white_color, 1);
+          overflow: hidden;
+          box-shadow: 0 40px 40px rgba($gray_color, 0.2);
+          position: relative;
+          z-index: 1;
+          a{
+            position: absolute;
+            inset: 0;
+            z-index: 999;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            height: 100px;
+            width: 10px;
+            background-color: rgba($white_color, 0.2);
+            left: 0;
+            transform: scale(5) rotate(45deg) translateX(-28px);
+            opacity: 1;
+            transition: transform 0.8s ease-in-out, opacity 0s 1s ;
+          }
+          img {
+            @extend%trans4;
+          }
+          &:hover {
+            &:after {
+              transform: scale(5) rotate(45deg) translateX(82px);
+              opacity: 0;            }
+            img {
+              transform: rotate(5deg) scale(1.15);
+            }
+          }
+        }
+      }
+    }
+  }
+}

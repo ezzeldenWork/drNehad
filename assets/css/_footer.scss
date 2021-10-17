@@ -16,6 +16,7 @@
     font-family: $minFont;
     text-align: center;
     color: rgba($white_color, .4);
+    margin: 0 0 10px;
     @extend%trans4;
     &:hover {
       color: rgba($white_color, 1);
